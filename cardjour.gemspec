@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
 		"README.txt", 
 		"Rakefile", 
 		"cardjour.gemspec", 
+		"bin/cardjour",
 		"lib/cardjour.rb",
 		"lib/cardjour/application.rb",
     "lib/cardjour/command/help.rb",
