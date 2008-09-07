@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+#require 'rubygems'
+require 'cardjour'
+
+trap "INT" do
+  exit!
+end
+
+Cardjour::Application.run(*ARGV)
