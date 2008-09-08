@@ -4,7 +4,8 @@
 
 == DESCRIPTION:
 
-Discover and share your business card with people in same LAN.
+Share and discover business card (VCard) with others in a LAN, using 
+Bonjour.
 
 == FEATURES/PROBLEMS:
 
@@ -12,8 +13,8 @@ NONE YET.
 
 == SYNOPSIS:
 
-% cardjour -list
-% cardjour -publish <vcard.vcf> [name to publish]
+% cardjour list
+% cardjour publish <vcard-file> [port] [description]"
 
 == REQUIREMENTS:
 

@@ -50,8 +50,8 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.2.0}
   s.summary = %q{Share business card (VCard) with others in LAN, using Bonjour}
   s.test_files = ["test/test_cardjour.rb", "test/test_helper.rb"]
-  s.add_dependency("vpim", ["> 0.0.0"])
-  s.add_dependency("net-mdns", ["> 0.0.0"])
+  s.add_dependency("vpim", ">= 0.0.0")
+  s.add_dependency("net-mdns", ">= 0.0.0")
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION

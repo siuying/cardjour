@@ -1,4 +1,5 @@
 require 'vpim/vcard'
+require 'net/dns/mdns-sd'
 
 module Cardjour
   module Command
